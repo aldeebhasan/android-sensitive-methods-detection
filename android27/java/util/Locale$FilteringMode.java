@@ -1,0 +1,10 @@
+package java.util;
+
+public enum FilteringMode
+{
+    AUTOSELECT_FILTERING, 
+    EXTENDED_FILTERING, 
+    IGNORE_EXTENDED_RANGES, 
+    MAP_EXTENDED_RANGES, 
+    REJECT_EXTENDED_RANGES;
+}

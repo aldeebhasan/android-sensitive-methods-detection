@@ -1,0 +1,35 @@
+package android.renderscript;
+
+public enum DataType
+{
+    BOOLEAN, 
+    FLOAT_16, 
+    FLOAT_32, 
+    FLOAT_64, 
+    MATRIX_2X2, 
+    MATRIX_3X3, 
+    MATRIX_4X4, 
+    NONE, 
+    RS_ALLOCATION, 
+    RS_ELEMENT, 
+    RS_FONT, 
+    RS_MESH, 
+    RS_PROGRAM_FRAGMENT, 
+    RS_PROGRAM_RASTER, 
+    RS_PROGRAM_STORE, 
+    RS_PROGRAM_VERTEX, 
+    RS_SAMPLER, 
+    RS_SCRIPT, 
+    RS_TYPE, 
+    SIGNED_16, 
+    SIGNED_32, 
+    SIGNED_64, 
+    SIGNED_8, 
+    UNSIGNED_16, 
+    UNSIGNED_32, 
+    UNSIGNED_4_4_4_4, 
+    UNSIGNED_5_5_5_1, 
+    UNSIGNED_5_6_5, 
+    UNSIGNED_64, 
+    UNSIGNED_8;
+}

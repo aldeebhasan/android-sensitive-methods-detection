@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:admobsdk="http://schemas.android.com/apk/res/joansoft.dailyread" xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode ="" android:versionName="2.6" android:installLocation="internalOnly" package="joansoft.dailyread">
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:label="@string/app_name" android:name=".DailyEnglish">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name_bk" android:name="joansoft.dailyread.BookmarkActivity"/>
+        <activity android:label="@string/app_name_bk" android:name="joansoft.dailyread.BookmarkDisplayActivity"/>
+        <activity android:label="@string/app_name" android:name="joansoft.news.NewsSummaryActivity"/>
+        <activity android:label="@string/app_name" android:name="joansoft.news.TopNewsDetailsActivity"/>
+        <receiver android:name=".DailyReadBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".DailyReadUpdateReciever"/>
+        <service android:name="UpdateService"/>
+        <activity android:name="com.airpush.android.PushAds" android:configChanges="keyboardHidden|orientation"/>
+        <receiver android:name="com.airpush.android.UserDetailsReceiver"/>
+        <receiver android:name="com.airpush.android.MessageReceiver"/>
+        <receiver android:name="com.airpush.android.DeliveryReceiver"/>
+        <service android:name="com.airpush.android.PushService">
+            <intent-filter>
+                <action android:name="com.airpush.android.PushServiceStart27267"/>
+            </intent-filter>
+        </service>
+    </application>
+    <uses-sdk android:minSdkVersion="3"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true"/>
+</manifest>

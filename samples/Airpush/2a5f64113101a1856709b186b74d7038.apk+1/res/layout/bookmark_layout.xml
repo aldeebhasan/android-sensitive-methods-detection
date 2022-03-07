@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:admobsdk="http://schemas.android.com/apk/res/joansoft.dailyread" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tabhost" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TabWidget android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@+id/wordBkList" android:background="#fff7f7f7" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="#dedbde" android:dividerHeight="1dp"/>
+            <ListView android:id="@+id/quoteBkList" android:background="#fff7f7f7" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="#dedbde" android:dividerHeight="1dp"/>
+            <ListView android:id="@+id/jokeBkList" android:background="#fff7f7f7" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="#dedbde" android:dividerHeight="1dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:EventSource="http://www.example.org/EventSource">
+  <EventSource:SysModel PackageName="joansoft.dailyread">
+    <service Name="UpdateService"/>
+    <service Name="com.airpush.android.PushService">
+      <filters Name="intent-filter">
+        <action Name="com.airpush.android.PushServiceStart27267"/>
+      </filters>
+    </service>
+    <activities ActivityName=".DailyEnglish">
+      <filters Name="intent-filter">
+        <action Name="android.intent.action.MAIN"/>
+        <category Name="android.intent.category.LAUNCHER"/>
+      </filters>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="horrSettID"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="newsSetId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="titleText"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="desText"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java" name="moreInfo"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+    </activities>
+    <activities ActivityName="joansoft.dailyread.BookmarkActivity">
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="horrSettID"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="newsSetId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="titleText"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="desText"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java" name="moreInfo"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+    </activities>
+    <activities ActivityName="joansoft.dailyread.BookmarkDisplayActivity">
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="horrSettID"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="newsSetId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="titleText"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="desText"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java" name="moreInfo"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+    </activities>
+    <activities ActivityName="joansoft.news.NewsSummaryActivity">
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="horrSettID"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="newsSetId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="titleText"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="desText"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java" name="moreInfo"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+    </activities>
+    <activities ActivityName="joansoft.news.TopNewsDetailsActivity">
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="horrSettID"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="newsSetId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="titleText"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="desText"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java" name="moreInfo"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+    </activities>
+    <activities ActivityName="com.airpush.android.PushAds">
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="horrSettID"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="DailyEnglish.java" ID="newsSetId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="wordOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="quoteOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="jokeOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="horrOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="newsOptId"/>
+      <views xsi:type="EventSource:InputChecks" ContainedActivity="DailyEnglish.java" ID="alertId"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="titleText"/>
+      <views xsi:type="EventSource:TextView" ContainedActivity="NewsSummaryActivity.java" ID="desText"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java" name="moreInfo"/>
+      <views xsi:type="EventSource:ImageView" ContainedActivity="PushAds.java"/>
+      <views xsi:type="EventSource:InputButton" ContainedActivity="PushAds.java"/>
+    </activities>
+    <reciver>
+      <filters Name="intent-filter" ReciverName=".DailyReadBootReceiver">
+        <action Name="android.intent.action.BOOT_COMPLETED"/>
+      </filters>
+    </reciver>
+    <reciver/>
+    <reciver/>
+    <reciver/>
+    <reciver/>
+    <usespermission Name="android.permission.WAKE_LOCK"/>
+    <usespermission Name="android.permission.INTERNET"/>
+    <usespermission Name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <usespermission Name="android.permission.ACCESS_NETWORK_STATE"/>
+    <usespermission Name="android.permission.READ_PHONE_STATE"/>
+    <usespermission Name="android.permission.ACCESS_COARSE_LOCATION"/>
+  </EventSource:SysModel>
+  <EventSource:SMSsAndCalls PhoneNumber="&quot;00&quot;"/>
+  <EventSource:SMSsAndCalls Content="&quot;SDKEnabled&quot;"/>
+  <EventSource:Files Content="&quot;SDKEnabled&quot;"/>
+  <EventSource:SMSsAndCalls Content="&quot;nextmessagecheck&quot;"/>
+  <EventSource:Files Content="&quot;nextmessagecheck&quot;"/>
+  <EventSource:SMSsAndCalls Content="&quot;SDKEnabled&quot;"/>
+  <EventSource:Files Content="&quot;SDKEnabled&quot;"/>
+  <EventSource:SMSsAndCalls Content="&quot;startTime&quot;"/>
+  <EventSource:Files Content="&quot;startTime&quot;"/>
+  <EventSource:SMSsAndCalls Content="&quot;%lat&quot;"/>
+  <EventSource:Files Content="&quot;%lat&quot;"/>
+  <EventSource:Files FileName="&quot;.txt&quot;"/>
+  <EventSource:Files FileName="&quot;http://www.joansoft.com/dr7.txt&quot;"/>
+  <EventSource:Files FileName="&quot;.txt&quot;"/>
+  <EventSource:Files FileName="&quot;.txt&quot;"/>
+  <EventSource:Files FileName="&quot;http://www.joansoft.com/word_2_.txt&quot;"/>
+  <EventSource:Location Value="java_location"/>
+  <EventSource:Location Value="java_location"/>
+  <EventSource:Location Value="java_location"/>
+  <EventSource:Location Value="java_location"/>
+  <EventSource:Location Value="java_location"/>
+  <EventSource:Location Value="java_location"/>
+  <EventSource:EvasionMethodes MethodSource="getApplicationContext" ClassName="ContextWrapper"/>
+  <EventSource:EvasionMethodes MethodSource="getPackageName" ClassName="Context"/>
+  <EventSource:EvasionMethodes MethodSource="getPackageManager" ClassName="Context"/>
+  <EventSource:EvasionMethodes MethodSource="getApplicationContext" ClassName="Context"/>
+  <EventSource:EvasionMethodes MethodSource="postDelayed" ClassName="Handler"/>
+  <EventSource:EvasionMethodes MethodSource="elapsedRealtime" ClassName="SystemClock"/>
+  <EventSource:EvasionMethodes MethodSource="getLastKnownLocation" ClassName="LocationManager"/>
+  <EventSource:EvasionMethodes MethodSource="requestLocationUpdates" ClassName="LocationManager"/>
+  <EventSource:EvasionMethodes MethodSource="removeUpdates" ClassName="LocationManager"/>
+  <EventSource:EvasionMethodes MethodSource="getActiveNetworkInfo" ClassName="ConnectivityManager"/>
+  <EventSource:EvasionMethodes MethodSource="getTypeName" ClassName="NetworkInfo"/>
+  <EventSource:EvasionMethodes MethodSource="isAvailable" ClassName="NetworkInfo"/>
+  <EventSource:EvasionMethodes MethodSource="isConnected" ClassName="NetworkInfo"/>
+  <EventSource:EvasionMethodes MethodSource="getDeviceId" ClassName="TelephonyManager"/>
+  <EventSource:EvasionMethodes MethodSource="getNetworkOperatorName" ClassName="TelephonyManager"/>
+  <EventSource:EvasionMethodes MethodSource="getSimOperatorName" ClassName="TelephonyManager"/>
+  <EventSource:EvasionMethodes MethodSource="append" ClassName="StringBuilder"/>
+  <EventSource:EvasionMethodes MethodSource="append" ClassName="StringBuilder"/>
+  <EventSource:EvasionMethodes MethodSource="append" ClassName="StringBuilder"/>
+  <EventSource:EvasionMethodes MethodSource="append" ClassName="StringBuilder"/>
+  <EventSource:EvasionMethodes MethodSource="append" ClassName="StringBuilder"/>
+  <EventSource:EvasionMethodes MethodSource="read" ClassName="InputStream"/>
+  <EventSource:EvasionMethodes MethodSource="read" ClassName="InputStream"/>
+  <EventSource:EvasionMethodes MethodSource="toString" ClassName="Date"/>
+  <EventSource:EvasionMethodes MethodSource="getTime" ClassName="Date"/>
+  <EventSource:EvasionMethodes MethodSource="getInstance" ClassName="Calendar"/>
+  <EventSource:EvasionMethodes MethodSource="getTimeInMillis" ClassName="Calendar"/>
+  <EventSource:EvasionMethodes MethodSource="get" ClassName="Calendar"/>
+  <EventSource:EvasionMethodes MethodSource="parse" ClassName="DateFormat"/>
+  <EventSource:EvasionFileds FieldSource="MODEL" ClassName="Build"/>
+  <EventSource:EvasionFileds FieldSource="MANUFACTURER" ClassName="Build"/>
+</xmi:XMI>

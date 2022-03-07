@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modisco.xml:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modisco.xml="http://www.eclipse.org/MoDisco/Xml/0.1.incubation/XML" name="manifest">
+  <children xsi:type="modisco.xml:Attribute" name="android:versionCode" value=""/>
+  <children xsi:type="modisco.xml:Attribute" name="android:versionName" value="2.6"/>
+  <children xsi:type="modisco.xml:Attribute" name="android:installLocation" value="internalOnly"/>
+  <children xsi:type="modisco.xml:Attribute" name="package" value="joansoft.dailyread"/>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="application">
+    <children xsi:type="modisco.xml:Attribute" name="android:label" value="@string/app_name"/>
+    <children xsi:type="modisco.xml:Attribute" name="android:icon" value="@drawable/icon"/>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="activity">
+      <children xsi:type="modisco.xml:Attribute" name="android:label" value="@string/app_name"/>
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value=".DailyEnglish"/>
+      <children xsi:type="modisco.xml:Text" name="&#xA;            "/>
+      <children xsi:type="modisco.xml:Element" name="intent-filter">
+        <children xsi:type="modisco.xml:Text" name="&#xA;                "/>
+        <children xsi:type="modisco.xml:Element" name="action">
+          <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.intent.action.MAIN"/>
+        </children>
+        <children xsi:type="modisco.xml:Text" name="&#xA;                "/>
+        <children xsi:type="modisco.xml:Element" name="category">
+          <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.intent.category.LAUNCHER"/>
+        </children>
+        <children xsi:type="modisco.xml:Text" name="&#xA;            "/>
+      </children>
+      <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="activity">
+      <children xsi:type="modisco.xml:Attribute" name="android:label" value="@string/app_name_bk"/>
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="joansoft.dailyread.BookmarkActivity"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="activity">
+      <children xsi:type="modisco.xml:Attribute" name="android:label" value="@string/app_name_bk"/>
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="joansoft.dailyread.BookmarkDisplayActivity"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="activity">
+      <children xsi:type="modisco.xml:Attribute" name="android:label" value="@string/app_name"/>
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="joansoft.news.NewsSummaryActivity"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="activity">
+      <children xsi:type="modisco.xml:Attribute" name="android:label" value="@string/app_name"/>
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="joansoft.news.TopNewsDetailsActivity"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="receiver">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value=".DailyReadBootReceiver"/>
+      <children xsi:type="modisco.xml:Text" name="&#xA;            "/>
+      <children xsi:type="modisco.xml:Element" name="intent-filter">
+        <children xsi:type="modisco.xml:Text" name="&#xA;                "/>
+        <children xsi:type="modisco.xml:Element" name="action">
+          <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.intent.action.BOOT_COMPLETED"/>
+        </children>
+        <children xsi:type="modisco.xml:Text" name="&#xA;            "/>
+      </children>
+      <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="receiver">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value=".DailyReadUpdateReciever"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="service">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="UpdateService"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="activity">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="com.airpush.android.PushAds"/>
+      <children xsi:type="modisco.xml:Attribute" name="android:configChanges" value="keyboardHidden|orientation"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="receiver">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="com.airpush.android.UserDetailsReceiver"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="receiver">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="com.airpush.android.MessageReceiver"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="receiver">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="com.airpush.android.DeliveryReceiver"/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    <children xsi:type="modisco.xml:Element" name="service">
+      <children xsi:type="modisco.xml:Attribute" name="android:name" value="com.airpush.android.PushService"/>
+      <children xsi:type="modisco.xml:Text" name="&#xA;            "/>
+      <children xsi:type="modisco.xml:Element" name="intent-filter">
+        <children xsi:type="modisco.xml:Text" name="&#xA;                "/>
+        <children xsi:type="modisco.xml:Element" name="action">
+          <children xsi:type="modisco.xml:Attribute" name="android:name" value="com.airpush.android.PushServiceStart27267"/>
+        </children>
+        <children xsi:type="modisco.xml:Text" name="&#xA;            "/>
+      </children>
+      <children xsi:type="modisco.xml:Text" name="&#xA;        "/>
+    </children>
+    <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="uses-sdk">
+    <children xsi:type="modisco.xml:Attribute" name="android:minSdkVersion" value="3"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="uses-permission">
+    <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.permission.WAKE_LOCK"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="uses-permission">
+    <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.permission.INTERNET"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="uses-permission">
+    <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="uses-permission">
+    <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.permission.ACCESS_NETWORK_STATE"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="uses-permission">
+    <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.permission.READ_PHONE_STATE"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="uses-permission">
+    <children xsi:type="modisco.xml:Attribute" name="android:name" value="android.permission.ACCESS_COARSE_LOCATION"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;    "/>
+  <children xsi:type="modisco.xml:Element" name="supports-screens">
+    <children xsi:type="modisco.xml:Attribute" name="android:anyDensity" value="true"/>
+    <children xsi:type="modisco.xml:Attribute" name="android:smallScreens" value="true"/>
+    <children xsi:type="modisco.xml:Attribute" name="android:normalScreens" value="true"/>
+    <children xsi:type="modisco.xml:Attribute" name="android:largeScreens" value="true"/>
+  </children>
+  <children xsi:type="modisco.xml:Text" name="&#xA;"/>
+  <namespaces name="admobsdk" value="http://schemas.android.com/apk/res/joansoft.dailyread"/>
+  <namespaces name="android" value="http://schemas.android.com/apk/res/android"/>
+</modisco.xml:Root>

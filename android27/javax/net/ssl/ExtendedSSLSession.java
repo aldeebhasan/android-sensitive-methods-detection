@@ -1,0 +1,14 @@
+package javax.net.ssl;
+
+import java.util.*;
+
+public abstract class ExtendedSSLSession implements SSLSession
+{
+    public abstract String[] getLocalSupportedSignatureAlgorithms();
+    
+    public abstract String[] getPeerSupportedSignatureAlgorithms();
+    
+    public List<SNIServerName> getRequestedServerNames() {
+        throw new UnsupportedOperationException();
+    }
+}

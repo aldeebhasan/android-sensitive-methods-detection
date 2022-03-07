@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="26" android:versionName="1.6.11" android:installLocation="auto" package="aarddict.android">
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:label="@string/appName" android:icon="@drawable/aarddict" android:allowBackup="true">
+        <activity android:label="@string/appName" android:name=".DictionariesActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file" android:pathPattern=".*\\.aar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/aar" android:scheme="file"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LookupActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ArticleViewActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize"/>
+        <activity android:name=".Lookup" android:taskAffinity="aarddict.external" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Article" android:taskAffinity="aarddict.external" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DictionaryInfoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize"/>
+        <service android:name=".DictionaryService"/>
+    </application>
+</manifest>

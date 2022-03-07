@@ -1,0 +1,102 @@
+adb shell am start -n joansoft.dailyread/.DailyEnglish
+adb shell am start -n joansoft.dailyread/.DailyEnglish
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell am start -n joansoft.dailyread/joansoft.dailyread.BookmarkActivity
+adb shell am start -n joansoft.dailyread/joansoft.dailyread.BookmarkActivity
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell am start -n joansoft.dailyread/joansoft.dailyread.BookmarkDisplayActivity
+adb shell am start -n joansoft.dailyread/joansoft.dailyread.BookmarkDisplayActivity
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell am start -n joansoft.dailyread/joansoft.news.NewsSummaryActivity
+adb shell am start -n joansoft.dailyread/joansoft.news.NewsSummaryActivity
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell am start -n joansoft.dailyread/joansoft.news.TopNewsDetailsActivity
+adb shell am start -n joansoft.dailyread/joansoft.news.TopNewsDetailsActivity
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell am start -n joansoft.dailyread/com.airpush.android.PushAds
+adb shell am start -n joansoft.dailyread/com.airpush.android.PushAds
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_MENU
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_HOME
+adb shell input keyevent KEYCODE_SYM
+adb shell input keyevent KEYCODE_DPAD_DOWN
+adb shell input keyevent KEYCODE_ENTER
+adb shell input keyevent KEYCODE_VOLUME_UP
+adb shell input keyevent KEYCODE_VOLUME_DOWN

@@ -1,0 +1,29 @@
+adb shell am broadcast -a android.intent.action.BOOT_COMPLETED
+Predefined@Battary
+Predefined@Battary
+Predefined@Battary
+Predefined@Battary
+Predefined@Battary
+adb shell am startservice joansoft.dailyread/UpdateService
+adb shell am startservice joansoft.dailyread/com.airpush.android.PushService
+PH@service_state
+PH@sittings
+PH@netowrk
+PH@data
+PH@battary
+PH@service_state
+PH@sittings
+PH@netowrk
+PH@data
+PH@battary
+bootttt
+PH@service_state
+PH@sittings
+PH@netowrk
+PH@data
+PH@battary
+PH@service_state
+PH@sittings
+PH@netowrk
+PH@data
+PH@battary
